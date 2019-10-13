@@ -58,7 +58,5 @@ int main(int argc, char **argv) {
     print_stdin();
   }
 
-
-  fprintf(stdout, "\n");
   return 0;
 }
