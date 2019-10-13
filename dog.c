@@ -6,6 +6,12 @@
 
 #include <stdio.h>
 
-int main(void) {
-  printf('hello, world');
+int main(int argc, char **argv) {
+
+  // loop over the filenames passed into dog in order to print them
+  for (int i = 1; i < argc; i++) {
+    printf(argv[i]);
+  }
+
+  return 0;
 }
